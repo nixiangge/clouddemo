@@ -9,13 +9,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
-        <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/elk/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
-        <option value="$PROJECT_DIR$/xin/pom.xml" />
-        <option value="$PROJECT_DIR$/imp/pom.xml" />
         <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/task/pom.xml" />
       </list>

@@ -9,19 +9,19 @@
         <module name="admin" />
         <module name="cloud" />
         <module name="config" />
-        <module name="elk" />
         <module name="eureka-server" />
-        <module name="imp" />
-        <module name="serice-feign" />
-        <module name="service-hi" />
         <module name="task" />
-        <module name="xin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elk" target="1.8" />
       <module name="em" target="1.8" />
+      <module name="imp" target="1.8" />
+      <module name="serice-feign" target="1.8" />
+      <module name="service-hi" target="1.8" />
       <module name="springnew" target="1.8" />
+      <module name="xin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
