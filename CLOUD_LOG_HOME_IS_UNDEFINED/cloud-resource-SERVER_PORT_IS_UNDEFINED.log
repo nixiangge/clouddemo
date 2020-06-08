@@ -1,0 +1,73 @@
+2020-04-02 15:15:54.503 [restartedMain,] INFO  o.s.b.d.restart.ChangeableUrls[225] - The Class-Path manifest attribute in D:\Repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-02 15:15:54.505 [restartedMain,] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-02 15:15:55.112 [restartedMain,] INFO  com.guoyu.elk.ElkApplication[655] - The following profiles are active: dev
+2020-04-02 15:15:55.444 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-02 15:15:55.444 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[127] - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-02 15:15:55.479 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[187] - Finished Spring Data repository scanning in 33ms. Found 2 Elasticsearch repository interfaces.
+2020-04-02 15:15:55.592 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-02 15:15:55.592 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[127] - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-02 15:15:55.604 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport[348] - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.guoyu.elk.jpadao.RootDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-04-02 15:15:55.604 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[187] - Finished Spring Data repository scanning in 9ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-02 15:15:55.608 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-02 15:15:55.608 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-02 15:15:55.616 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport[348] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.guoyu.elk.dao.BookDao. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-04-02 15:15:55.616 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport[348] - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.guoyu.elk.dao.UserDao. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2020-04-02 15:15:55.620 [restartedMain,] INFO  o.s.d.r.c.RepositoryConfigurationDelegate[187] - Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+2020-04-02 15:15:55.831 [restartedMain,] INFO  o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=73e689fc-961c-3e61-9d41-26aee515d1c0
+2020-04-02 15:15:56.288 [restartedMain,] INFO  o.s.b.w.e.tomcat.TomcatWebServer[92] - Tomcat initialized with port(s): 6060 (http)
+2020-04-02 15:15:56.296 [restartedMain,] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-6060"]
+2020-04-02 15:15:56.296 [restartedMain,] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-04-02 15:15:56.296 [restartedMain,] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-02 15:15:56.491 [restartedMain,] INFO  org.apache.jasper.servlet.TldScanner[173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-04-02 15:15:56.491 [restartedMain,] INFO  o.a.c.c.C.[Tomcat].[localhost].[/es][173] - Initializing Spring embedded WebApplicationContext
+2020-04-02 15:15:56.491 [restartedMain,] INFO  o.s.web.context.ContextLoader[284] - Root WebApplicationContext: initialization completed in 1367 ms
+2020-04-02 15:15:56.561 [restartedMain,] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure[56] - Init DruidDataSource
+2020-04-02 15:15:56.760 [restartedMain,] INFO  c.alibaba.druid.pool.DruidDataSource[928] - {dataSource-1} inited
+2020-04-02 15:15:56.831 [restartedMain,] INFO  o.h.jpa.internal.util.LogHelper[31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 15:15:56.899 [restartedMain,] INFO  org.hibernate.Version[44] - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 15:15:57.019 [restartedMain,] INFO  o.h.annotations.common.Version[49] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 15:15:57.141 [restartedMain,] INFO  org.hibernate.dialect.Dialect[172] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 15:15:57.576 [restartedMain,] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator[52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 15:15:57.582 [restartedMain,] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean[416] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 15:15:57.596 [restartedMain,] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2020-04-02 15:15:58.294 [restartedMain,] INFO  o.e.plugins.PluginsService[197] - no modules loaded
+2020-04-02 15:15:58.294 [restartedMain,] INFO  o.e.plugins.PluginsService[200] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-02 15:15:58.294 [restartedMain,] INFO  o.e.plugins.PluginsService[200] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-02 15:15:58.297 [restartedMain,] INFO  o.e.plugins.PluginsService[200] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-02 15:15:58.297 [restartedMain,] INFO  o.e.plugins.PluginsService[200] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-02 15:15:58.297 [restartedMain,] INFO  o.e.plugins.PluginsService[200] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-02 15:15:59.332 [restartedMain,] INFO  o.s.d.e.c.TransportClientFactoryBean[88] - Adding transport node : 192.168.0.115:9300
+2020-04-02 15:16:00.223 [restartedMain,] WARN  c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 15:16:00.223 [restartedMain,] INFO  c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 15:16:00.226 [restartedMain,] WARN  c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 15:16:00.226 [restartedMain,] INFO  c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 15:16:00.268 [restartedMain,] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[220] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 15:16:00.352 [restartedMain,] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 15:16:00.432 [restartedMain,] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration[106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-04-02 15:16:01.358 [restartedMain,] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger[86] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-02 15:16:01.405 [restartedMain,] INFO  o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2020-04-02 15:16:01.433 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[368] - Initializing Eureka in region us-east-1
+2020-04-02 15:16:01.476 [restartedMain,] INFO  c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-02 15:16:01.476 [restartedMain,] INFO  c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-02 15:16:01.569 [restartedMain,] INFO  c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2020-04-02 15:16:01.569 [restartedMain,] INFO  c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2020-04-02 15:16:01.729 [restartedMain,] INFO  c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2020-04-02 15:16:01.940 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[981] - Disable delta property : false
+2020-04-02 15:16:01.940 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[982] - Single vip registry refresh property : null
+2020-04-02 15:16:01.940 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[983] - Force full registry fetch : false
+2020-04-02 15:16:01.940 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[984] - Application is null : false
+2020-04-02 15:16:01.940 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[985] - Registered Applications size is zero : true
+2020-04-02 15:16:01.944 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[987] - Application version is -1: true
+2020-04-02 15:16:01.944 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[1070] - Getting all instance registry info from the eureka server
+2020-04-02 15:16:02.034 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[1079] - The response status is 200
+2020-04-02 15:16:02.034 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[1294] - Starting heartbeat executor: renew interval is: 30
+2020-04-02 15:16:02.038 [restartedMain,] INFO  c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-02 15:16:02.042 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[468] - Discovery Client initialized at timestamp 1585811762038 with initial instances count: 1
+2020-04-02 15:16:02.042 [restartedMain,] INFO  o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application EUREKA-ELK with eureka with status UP
+2020-04-02 15:16:02.042 [restartedMain,] INFO  c.netflix.discovery.DiscoveryClient[1330] - Saw local status change event StatusChangeEvent [timestamp=1585811762042, current=UP, previous=STARTING]
+2020-04-02 15:16:02.042 [DiscoveryClient-InstanceInfoReplicator-0,] INFO  c.netflix.discovery.DiscoveryClient[847] - DiscoveryClient_EUREKA-ELK/DESKTOP-CJVSSFN:eureka-elk:6060: registering service...
+2020-04-02 15:16:02.053 [restartedMain,] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-6060"]
+2020-04-02 15:16:02.073 [DiscoveryClient-InstanceInfoReplicator-0,] INFO  c.netflix.discovery.DiscoveryClient[856] - DiscoveryClient_EUREKA-ELK/DESKTOP-CJVSSFN:eureka-elk:6060 - registration status: 204
+2020-04-02 15:16:02.073 [restartedMain,] INFO  o.s.b.w.e.tomcat.TomcatWebServer[204] - Tomcat started on port(s): 6060 (http) with context path '/es'
+2020-04-02 15:16:02.077 [restartedMain,] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 6060
+2020-04-02 15:16:02.471 [restartedMain,] INFO  com.guoyu.elk.ElkApplication[61] - Started ElkApplication in 8.713 seconds (JVM running for 9.817)
