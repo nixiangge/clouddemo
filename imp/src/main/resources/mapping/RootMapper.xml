@@ -12,4 +12,7 @@
     <select id="findOne" resultType="com.guoyu.imp.entity.Root">
          select * from root where uuid = #{id}
     </select>
+    <select id="findAll" resultMap="BaseResultMap">
+         select * from root
+    </select>
 </mapper>

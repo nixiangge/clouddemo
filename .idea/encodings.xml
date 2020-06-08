@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/em" charset="UTF-8" />
@@ -10,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/imp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serice-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>

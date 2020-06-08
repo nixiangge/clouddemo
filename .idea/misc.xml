@@ -16,7 +16,8 @@
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/xin/pom.xml" />
         <option value="$PROJECT_DIR$/imp/pom.xml" />
-        <option value="$PROJECT_DIR$/em/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/task/pom.xml" />
       </list>
     </option>
   </component>

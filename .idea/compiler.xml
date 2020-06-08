@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
         <module name="cloud" />
         <module name="config" />
         <module name="elk" />
-        <module name="em" />
         <module name="eureka-server" />
         <module name="imp" />
         <module name="serice-feign" />
         <module name="service-hi" />
+        <module name="task" />
         <module name="xin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="em" target="1.8" />
       <module name="springnew" target="1.8" />
     </bytecodeTargetLevel>
   </component>
